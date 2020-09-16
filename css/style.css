@@ -1,0 +1,194 @@
+header{
+  width: 100%;
+  
+
+}
+.top .fkr {
+    width: 100px;
+    height: 30px;
+    margin-top: 3px;
+}
+.top{
+    margin:0;
+    padding: 0;
+    display: flex;
+    padding-left: 200px;
+   
+    background-color: white;
+    
+    
+}
+
+.menu > ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 100px;
+}
+.menu > ul li a{
+    transition: all 0.3 ease;
+}
+.menu > ul li:first-child{
+    border-left: 1px solid grey;
+}
+.menu >  ul li {
+    border-right: 1px solid grey;
+}
+
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+.icon{
+    width: 300px;
+    display: flex;
+}
+
+.icon p{
+    margin-top: 15px;
+    margin-left:10px ;
+}
+.foto{
+    background-image: url(../img/image.jpg);
+    width: 100%;
+    height: 650px;
+    border-top: 2px solid red;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 50px;
+    
+}
+ .menu li {
+    list-style-type: none;
+    transform: skew(160deg);
+}
+.h1{
+    background-color: white;
+    width: 300px;
+    position: absolute;
+    height: 150px;
+    border-bottom: 2px solid red;
+    margin-left: 300px;
+    top: 68%;
+    padding: 1%;
+}
+.h1 h3{
+    color: red;
+    font-weight: bolder;
+}
+.icon img{
+    width: 20px;
+    height: 20px;
+    
+}
+.icon .icon1{
+padding-left: 280px;
+margin-top:13px ;
+}
+.icon .icon2{
+    margin-top: 13px;
+}
+.menu a:hover{
+    background-color: red;
+}
+a.a:hover{
+    text-decoration: underline red  ;
+}
+
+.a{
+    text-decoration: none;
+    color: black;
+    margin-left: 150px;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 50px;
+    border-bottom: 2px solid red;
+    
+    
+
+}
+
+
+.section img{
+    width: 380px;
+    height: 250px;
+    margin-top: 5px;
+}
+.section a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    font-weight: bolder;
+    
+}
+.section p:hover{
+    background-color: red;
+}
+.section p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.section2 img{
+    width: 250px;
+    height: 150px;
+}
+.section2{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 50px;
+    
+}
+.section2 a{
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.747);
+}
+.section2 a:hover{
+    background-color: red;
+}
+.section2 p:hover{
+    color: red;
+}
+footer{
+    width:100%;
+    height: 600px;
+    background-color: #252525;
+    color: rgb(102,102,102);
+}
+
+footer h1{
+    padding-top: 30px;
+    padding-left:300px;
+}
+.end{
+    margin-left: 250px;
+}
+
+.end img{
+    width: 129px;
+    height: 70px;
+    background-color: rgb(102,102,102);
+    margin-left: 50px;
+}
+.endp{
+    margin-top: 50px;
+}
+.end1{
+    display: flex;
+    margin-left: 300px;
+}
+
+.end2{
+    margin-left: 500px;
+    margin-top: 70px;
+    text-align: right;
+}
